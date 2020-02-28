@@ -1,0 +1,31 @@
+{
+  "name": "papacanfixit",
+  "version": "1.0.0",
+  "description": "This is a website for Don Hoopengarner's handyman website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boonki/papapcanfixit.git"
+  },
+  "author": "Rebekah Hoopengarner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boonki/papapcanfixit/issues"
+  },
+  "homepage": "https://github.com/boonki/papapcanfixit#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.0.6",
+    "bootstrap": "^4.4.1",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1"
+  }
+}
