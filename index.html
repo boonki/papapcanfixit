@@ -1,7 +1,7 @@
 
 <html lang="en">
 
-    <head>
+<head>
         <!-- Required meta tags always come first -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,19 +22,28 @@
 
 <!--THIS IS THE HEADER-->
     <header class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10">
-                    <h2>PAPA CAN FIX IT</h2>
-                    <h5>UNLESS YOUR WIFE SAYS NO</h5>
+            <div class="row ml-2 mr-2">
+                <div class="col">
+                    <div class="media">
+                        <img src="https://images.pexels.com/photos/175039/pexels-photo-175039.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" height="20%" width="20%" alt="Generic placeholder image" style="background:transparent;">
+                        <div class="media-body ml-3">
+                          <h2 class="mt-0"> PAPA CAN FIX IT</h2>
+                          <h4> UNLESS YOUR WIFE SAYS NO.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col align-self-end">
+                    <div class="float-right">
+                    <a class="btn btn-light text-dark btn-sm" id="#quoteForm"> Get a quote! </a>
+                    <a class="btn btn-light text-dark btn-sm" id="appForm"> Make an appointment! </a>
+                    </div>
                 </div>
             </div> 
-        </div>
     </header>
 
 <!--THIS IS THE NAV BAR-->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top mt-0">
-        <a class="navbar-brand" href="#"><i class="fas fa-caravan"></i> Our Story </a>
+    <nav class="navbar navbar-expand-sm sticky-top mt-0" style="background-color: #993d00;">
+        <a class="navbar-brand ml-3" href="#" style="color:white;"><i class="fas fa-caravan"></i> My Story </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#pcfiNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -42,8 +51,8 @@
             <div class="collapse navbar-collapse" id="pcfiNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-hammer fa-lg" style="color:orangered;"> Services </i>
+                        <a class="nav-link dropdown-toggle" style="color:white;" href="services.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-hammer fa-lg" ></i> Services 
                           </a>
                           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#">Around the House</a>
@@ -52,8 +61,8 @@
                           </div>
                     </li>
                     <li class="nav-item dropdown"> 
-                        <a class="nav-link dropdown-toggle" href="quickfix.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-toolbox fa-lg" style="color: orangered;"> Quick Fixes </i>
+                        <a class="nav-link dropdown-toggle" style="color:white;" href="quickfix.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-toolbox fa-lg" ></i> Quick Fixes 
                           </a>
                           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#">Easy House Repairs</a>
@@ -61,75 +70,213 @@
                             <a class="dropdown-item" href="#">Other</a>
                           </div>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="faq.html" style="color: #cc5200"><i class="fas fa-wrench fa-lg"></i>FAQ</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html" style="color: #cc5200"><i class="fa fa-address-card fa-lg"></i>Contact</a></li>
+                    <li class="nav-item dropdown"> 
+                        <a class="nav-link dropdown-toggle" style="color:white;" href="faq.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-wrench fa-lg" ></i> FAQ
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Can I repair this myself?</a>
+                            <a class="dropdown-item" href="#">How quickly can you get here?</a>
+                            <a class="dropdown-item" href="#">How much will this cost?</a>
+                            <a class="dropdown-item" href="#">And other great questions!</a>
+                          </div>
+                    </li>
+                    <li class="nav-item dropdown"> 
+                        <a class="nav-link dropdown-toggle" style="color:white;" href="contact.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-address-card fa-lg" ></i> Contact
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Ask a question</a>
+                            <a class="dropdown-item" href="#">Get a quote</a>
+                            <a class="dropdown-item" href="#">Book an appointment</a>
+                          </div>
+                    </li>
                 </ul>
             </div>
-        </div>
-        <div class="col ml-auto">
-            <a class="btn btn-md btn-light" id="#quoteForm">Get a quote!</a>
         </div>
     </nav>
 
 <!--PARALLAX-->
 <!--our story section of homepage-->
 <div class="bgimg-1">
-<div class="container">
-    <div class="row row-content">
-        <div class="col-sm-8 mt-5">
-            <div class="card">
+    <div class="row">
+        <div class="col-sm-8 offset-1 mt-5">
+            <div class="card mb-3" style="background-color: #993d00; color:white">
                 <div class="media">
-                    <img src="..." class="align-self-center mr-3" alt="...">
-                    <div class="media-body">
-                      <h5 class="mt-0">Center-aligned media</h5>
-                      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                      <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <img src="img/papasface.jpg" class="align-self-start mr-3" alt="This is Don." height="30%" width="30%">
+                    <div class="media-body ml-2 mt-5">
+                      <h4 class="mt-0">Don Hoopengarner - My Story</h4>
+                      <p>I am naturally a handy-man. Through over 45 years of home ownership, I have changed plumbing fixtures, cut in windows and window trim, added tile floors, installed a fireplace mantle, installed doors, changed interior and exterior light fixtures, painted interior and exterior walls, fixed trims, re-caulked bathrooms, and repaired faucets. I have changed garbage disposals, installed electrical outlets, built garage shelving and workbenches and decks.  I have repaired oven controls, refrigerator controls, fixed fences and installed thermostats. I can perform minor automotive and RV repairs. I take on repair projects because they are there, and my hobby has always been to fix things. </p><br />
+
+                        <p>I can’t stand something not working and have never called in professional help, following in my fathers footsteps.  I have lots of old tools (and some newer ones too), because I like to fix things myself. I get a real sense of accomplishment fixing things and helping others. As my 50 year career in the commercial temperature controls business comes to its conclusion, with all of my construction and retrofit experience in building, trains, cruiseships, I would really enjoy the feeling of building community and social interaction by helping people when things don’t work, and they are in need of help from someone who naturally enjoys fix-it projects.</p>
                     </div>
                   </div>
             </div>
         </div>
         <div class="col mt-5">
-            <div class="card text-right" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+            <div class="card text-right" style="width: 18rem;background-color: #993d00; color:white;">
+                <img src="https://ontheworldmap.com/usa/city/seattle/seattle-tourist-attractions-map.jpg" class="card-img-top" alt="fake map">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h5 class="card-title">Located in Seattle, WA</h5>
+                  <p class="card-text">Will work in the surrounding areas, give me a call and we'll work something out!</p>
                 </div>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-                  <li class="list-group-item">Vestibulum at eros</li>
+                  <li class="list-group-item" id="cardlistgroup">Email: <a role="button" href="mailto:dwhoopengarner@msn.com" style="color:white;">dwhoopengarner@msn.com</a></li>
+                  <li class="list-group-item" id="cardlistgroup">Phone: <a role="button" href="tel:2064957985" style="color:white;">(206) 495-7985</a> </li>
                 </ul>
                 <div class="card-body">
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
+                  <a href="#quoteForm" class="card-link" style="color:white">Get a quote</a><br />
+                  <a href="appForm" class="card-link" style="color:white">Make an appointment</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<!--services offered section-->
+<div class="jumbotron jumbotron-fluid" style="height:100px;">
+    <div class="row">
+        <div class="col text-center">
+            <h3>- SERVICES AVAILABLE -</h3>
+        </div>
     </div>
-    
-    <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
-      <h3 style="text-align:center;">Parallax Demo</h3>
-      <p>Add cards inside a carousel here with services offered </p>
-    </div>
+</div>
+<div class="carouselbackground">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-pause="hover" data-interval="7000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card-deck">
 
-<!--our services section-->
-    
-    <div class="bgimg-2">
-      <div class="caption">
-      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+                <div class="card">
+                  <img src="https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="card-img-top"  alt="A line of cars.">
+                  <div class="card-body">
+                    <h5 class="card-title">Engine Repair</h5>
+                    <p class="card-text">Vroom vroom so much engine repair <br /> Prices: x,y,z</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Something here?</small>
+                  </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://learn.compactappliance.com/wp-content/uploads/2015/05/diagnosing-thermostat.jpg" class="card-img-top" alt="So warm and cozy">
+                    <div class="card-body">
+                      <h5 class="card-title">Thermostat Controls</h5>
+                      <p class="card-text">I like it at a nice 90 degrees inside.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Pricing</small>
+                    </div>
+                  </div>
+
+                <div class="card">
+                  <img src="https://images.pexels.com/photos/1910472/pexels-photo-1910472.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="card-img-top" alt="A clean bathroom.">
+                  <div class="card-body">
+                    <h5 class="card-title">In the Bathroom</h5>
+                    <p class="card-text">Nothing stinks more than a toilet that doesn't work! Hah, get it?</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">I'll stop</small>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="card-deck">
+
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/474/black-and-white-car-vehicle-vintage.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="card-img-top" alt="A man fixing a car.">
+                    <div class="card-body">
+                      <h5 class="card-title">In the Garage</h5>
+                      <p class="card-text">Fixing shelves, installing fun things, etc.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Pricing</small>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="https://images.pexels.com/photos/955793/pexels-photo-955793.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="A small snail carries a house.">
+                    <div class="card-body">
+                      <h5 class="card-title">House Exterior</h5>
+                      <p class="card-text">Painting, window cleaning, hose repair, fencing.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Yeah maybe prices should go here</small>
+                    </div>
+                  </div>
+
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/386025/pexels-photo-386025.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="card-img-top" alt="The cutest RV you've ever seen.">
+                    <div class="card-body">
+                      <h5 class="card-title">RV Repairs</h5>
+                      <p class="card-text">Engine repairs, fridge installation, heating, etc.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Pricing</small>
+                    </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="card-deck">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/279648/pexels-photo-279648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="card-img-top" alt="A nice clean kitchen.">
+                    <div class="card-body">
+                      <h5 class="card-title">In the Kitchen</h5>
+                      <p class="card-text">Tile replacement, fridge repairment, a nice home-cooked meal, we got it all.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Rough estimate of prices?</small>
+                    </div>
+                  </div>
+                
+                <div class="card">
+                  <img src="https://images.pexels.com/photos/1583653/pexels-photo-1583653.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="card-img-top" alt="A pair of pliers sits on tile.">
+                  <div class="card-body">
+                    <h5 class="card-title">Tiling</h5>
+                    <p class="card-text">So you have nice floors.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Pricing</small>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="https://images.pexels.com/photos/255514/pexels-photo-255514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="card-img-top" alt="A smol toy plane.">
+                  <div class="card-body">
+                    <h5 class="card-title">Other Tricky Fixes</h5>
+                    <p class="card-text">Jewelry? Toys? Various appliances? I've done it.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Pricing</small>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
+</div>
+<!--wrench picture background-->
+<div class="bgimg-2">
     </div>
-    
+<!--contact and reservation section-->
     <div style="position:relative;">
       <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-      <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+      <p>ADD CONTACT INTO HERE INCLUDING A LINK TO THE QUOTE FORM AND RESERVATION FORM</p>
       </div>
     </div>
     
-<!--contact us section-->
+<!--extra section-->
     <div class="bgimg-3">
       <div class="caption">
       <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
@@ -145,9 +292,9 @@
 
 <!--THIS IS THE FOOTER-->
 <footer class="site-footer">
-    <div class="container">
+    <div class="container container-fluid">
         <div class="row row-content">
-            <div class="col-4 col-sm-2 offset-1 mt-4">
+            <div class="col-2 mt-4">
                 <h5>Links</h5>
                 <ul class="list-unstyled">
                     <li><a class="bottomlink" href="index.html">Our Story</a></li>
@@ -156,24 +303,29 @@
                     <li><a class="bottomlink" href="contact.html">Contact</a></li>
                 </ul>
             </div>
-       
-
-    <div class="col-6 col-sm-5 text-center mt-4">
-        <h5>Social</h5>
-        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fab fa-instagram-square"></i></a>
-                <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fab fa-facebook-square"></i></a>
-                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fab fa-twitter-square"></i></a>
-                <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fab fa-youtube-square"></i></a>
-    </div>
-    <div class="col-sm-4 text-center mt-4">
-        <a role="button"  class="btn btn-link" href="tel:12065551234"> <i class="fas fa-phone-square fa-lg"></i> 1-206-555-1234 </a> <br />
-        <a role="button"  class="btn btn-link" href="btn btn-link" href="mailto:dwhoopengarner@msn.com"> <i class="fa fa-envelope-o fa-lg"></i> dwhoopengarner@msn.com </a> <br />
-        <a class="btn btn-md btn-dark" id="#quoteForm">Get a quote!</a>
-    </div>
-    </div>
+            <div class="col-7 text-center mt-4">
+                <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fab fa-instagram-square"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fab fa-youtube-square"></i></a>
+            </div>
+            <div class="col-3 text-right mt-4">
+                <ul class="list-unstyled">
+                <li><a role="button"  class="btn btn-link" href="tel:12065551234"> <i class="fas fa-phone-square fa-lg"></i> 1-206-555-1234 </a></li>
+                <li><a role="button"  class="btn btn-link" href="btn btn-link" href="mailto:dwhoopengarner@msn.com"> <i class="fa fa-envelope-o fa-lg"></i> dwhoopengarner@msn.com </a></li>
+                <li><a role="button" class="btn btn-link" href="#quoteForm" id="#quoteForm">Get a quote!</a></li>
+                <li><a role="button" class="btn btn-link" href="#appForm" id="#appForm">Make an appointment!</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </footer>
+
 <!--BUILD #QUOTEFORM AS A MODAL TO BRING UP A CALCULATOR-->
+<!--BUILD #APPFORM AS A MODAL TO MAKE A RESERVATION-->
+<!--BUILD SERVICES CAROUSEL-->
+
 
 
 <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
@@ -183,7 +335,6 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/2fc45b446e.js" crossorigin="anonymous"></script>
-
 
 </body>
 </html>

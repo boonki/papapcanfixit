@@ -1,14 +1,21 @@
 
 .jumbotron{
-    background-color: black;
+    background-image: url("https://images.pexels.com/photos/450055/pexels-photo-450055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     color: white;
     background-size: cover;
     width: 100%;
-    height: 27%;
+    height: 30%;
     margin-bottom: 0px;
-    font-family: 'Special Elite', sans-serif;
+    font-family: 'Krona One', sans-serif;
   }
+.jumbotron .btn {
+        font-family: 'Kanit', sans-serif;
+}
 
+.nav-bar {
+    font-family: "Roboto", sans-serif;
+    background-color: #993d00;
+}
 .site-footer {
     background-color: #264d73;
     color: white;
@@ -22,43 +29,34 @@
 .bottomlink {
     color: white;
 }
-.navbar {
-    font-family: "Roboto", sans-serif;
-}
-
-.nav-link {
-    font-family: "Roboto", sans-serif;
-}
 
 body, html {
     height: 100%;
     margin: 0;
     font: 400 15px/1.8 "Kanit", sans-serif;
     color: #777;
+    padding-right: 0%;
   }
-  
   .bgimg-1 {
     background-image: url("https://images.pexels.com/photos/1094767/pexels-photo-1094767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    min-height: 80%;
+    min-height: 63%;
   }
   .bgimg-2 {
     background-image: url("https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940.jpg");
-    min-height: 100%;
+    min-height: 20%;
   }
   .bgimg-3 {
     background-image: url("https://images.pexels.com/photos/1178498/pexels-photo-1178498.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940.jpg");
-    min-height: 100%;
+    min-height: 40%;
   }
   .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
-    opacity: 0.65;
+    opacity: 0.85;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-    
-  
   /* Turn off parallax scrolling for tablets and phones */
   @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -88,9 +86,18 @@ body, html {
     font: 20px "Lato", sans-serif;
     color: #111;
   }
-  h2, h5 {
-    font-family: "Roboto", sans-serif;
-    color: white;
-  }
 }
-  
+#cardlistgroup {
+    background-color:#993d00;
+}
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid white;
+  }
+  .carouselbackground {
+      background-image: url("https://images.pexels.com/photos/450055/pexels-photo-450055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+      padding:20px 80px;
+  }
